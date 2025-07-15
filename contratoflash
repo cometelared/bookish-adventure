@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contrato Flash – Reduce 3 Horas de Lectura a 7 Minutos</title>
+    <!-- Tailwind via CDN: perfecto para un MVP rápido sin build -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Pequeñas mejoras */
+      .gradient-bg {
+        background: linear-gradient(135deg, #4ade80 0%, #22d3ee 100%);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased">
+    <!-- HERO -->
+    <section class="gradient-bg text-white py-20">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-extrabold mb-4">
+          ⚡ Reduce 3 Horas de Lectura a 7 Minutos
+        </h1>
+        <h2 class="text-xl md:text-2xl font-medium mb-8">
+          Obtén tu resumen ejecutivo de 1 página en <span class="font-bold">menos de 7 minutos</span>…<br />
+          <span class="underline">sin revelar una sola cláusula confidencial</span>
+        </h2>
+        <a
+          href="#cta"
+          class="inline-block bg-white text-gray-900 font-semibold px-8 py-4 rounded-xl shadow-lg transform hover:scale-105 transition"
+        >¡QUIERO MI BRIEF!</a>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section class="max-w-5xl mx-auto px-6 py-16">
+      <h3 class="text-2xl font-bold mb-6 text-center">¿Por qué “Contrato Flash” cambia tu día a día?</h3>
+      <ul class="space-y-4 text-lg">
+        <li class="flex items-start"><span class="text-green-500 mr-2">✓</span> <strong>Liberas tu agenda.</strong> Ya no pasarás la tarde subrayando PDFs; nosotros lo hacemos por ti.</li>
+        <li class="flex items-start"><span class="text-green-500 mr-2">✓</span> <strong>Decisiones más rápidas.</strong> Entrega al CEO un brief accionable antes de la próxima reunión.</li>
+        <li class="flex items-start"><span class="text-green-500 mr-2">✓</span> <strong>Cero estrés legal.</strong> Flujo cifrado AES‑256 y NDA firmado: tu información está blindada.</li>
+        <li class="flex items-start"><span class="text-green-500 mr-2">✓</span> <strong>Todo listo para el board.</strong> Descarga el resumen con tu logo y KPIs en un clic.</li>
+        <li class="flex items-start"><span class="text-green-500 mr-2">✓</span> <strong>Precio que cabe en cualquier budget.</strong> Paga 20 €/mes y resume hasta 10 documentos al instante.</li>
+      </ul>
+    </section>
+
+    <!-- TESTIMONIO -->
+    <section class="bg-white py-16 border-t border-b">
+      <div class="max-w-3xl mx-auto px-6 text-center">
+        <blockquote class="text-xl italic font-medium text-gray-600">
+          “A las 10 a. m. subí un contrato SaaS de 48 páginas. A las 10:07 ya tenía un brief con los riesgos y fechas clave. Le ahorré al equipo comercial 3 horas y cerramos la oferta ese mismo día.”
+        </blockquote>
+        <p class="mt-4 font-semibold">— Natalia Reyes, Legal Ops, Fintech Latam 300 empleados</p>
+      </div>
+    </section>
+
+    <!-- BONOS -->
+    <section class="max-w-5xl mx-auto px-6 py-16">
+      <h3 class="text-2xl font-bold mb-6 text-center">🎁 Bonos Early Bird (solo para los primeros 25)</h3>
+      <div class="grid gap-8 md:grid-cols-2">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h4 class="font-semibold mb-2">1. Plantilla “Executive Brief Pro”</h4>
+          <p>Ahorra tiempo de formato y luce impecable ante dirección. Valor: <strong>97 €</strong>.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+          <h4 class="font-semibold mb-2">2. On‑boarding 1:1 “Zero‑Fugas”</h4>
+          <p>Sesión privada de 15 min donde blindamos tu flujo de datos. Valor: <strong>147 €</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="gradient-bg text-white py-16">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <h3 class="text-3xl font-bold mb-4">¿Listo para ahorrar horas hoy mismo?</h3>
+        <p class="mb-8 text-lg">Haz clic y asegura tu acceso Early Bird antes de que el contador llegue a cero.</p>
+        <a
+          href="https://tu-checkout-softr.com" target="_blank" rel="noopener"
+          class="inline-block bg-white text-gray-900 font-semibold px-10 py-4 rounded-xl shadow-lg transform hover:scale-105 transition"
+        >¡QUIERO MI BRIEF!</a>
+        <p class="mt-6 text-sm opacity-80">Precio Early Bird: 20 €/mes · Cancela cuando quieras</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-sm text-gray-500">
+      © 2025 Contrato Flash · Todos los derechos reservados · <a href="#" class="underline">Aviso Legal</a>
+    </footer>
+  </body>
+</html>
